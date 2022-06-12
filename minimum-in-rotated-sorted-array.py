@@ -1,5 +1,6 @@
+# find minimum in rotated sorted array
 # binary search w/ 2 pointers
-# time O(logN), space: O(1)
+# time: O(logN), space: O(1)
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         l, r = 0, len(nums)-1

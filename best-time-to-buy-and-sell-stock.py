@@ -1,3 +1,4 @@
+# best time to buy and sell stock
 # find largest peak following smallest valley, single pass
 # time: O(n), space: O(1)
 class Solution:
