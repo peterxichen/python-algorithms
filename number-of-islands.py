@@ -43,7 +43,7 @@ class Solution:
                             neighbors.append((rr+1)*len(grid[0])+cc)
                             grid[rr+1][cc] = '0'
                         if (cc-1>=0 and grid[rr][cc-1] == '1'):
-                            neighbors.append(rr*len(grid[0]+cc-1))
+                            neighbors.append(rr*len(grid[0])+cc-1)
                             grid[rr][cc-1] = '0'
                         if (cc+1<len(grid[0]) and grid[rr][cc+1]=='1'):
                             neighbors.append(rr*len(grid[0])+cc+1)
