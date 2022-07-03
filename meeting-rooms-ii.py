@@ -1,6 +1,7 @@
 # Meeting Rooms II
-# sort by start time, put end times into min heap, top/min room frees earliest
-# iter through times append to heap, pop top room if free (< cur start time)
+# sort by start time, iter through times append to heap,
+# put end times into min heap, top/min room frees earliest,
+# pop top room if free (< cur start time)
 # time: O(nlogn), space: O(n)
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
