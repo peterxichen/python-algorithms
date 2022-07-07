@@ -1,7 +1,7 @@
 # Graph Valid Tree (contains no cycles)
 # Union find/Disjoint Set algo: used to check whether an undirected graph contains cycle
 # Find: Determine which subset a particular element is in
-# Union: Join two subsets into a single subset (share same edge).
+# Union: Join two subsets into a single subset (share same edge)
 # time: O(n), space: O(n)
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:

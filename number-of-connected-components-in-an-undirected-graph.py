@@ -1,7 +1,7 @@
 # Number of Connected Components in an Undirected Graph
-# Union find/Disjoint Set algo: find # of disjoint sets
+# Union find/Disjoint Set algo: find # of disjoint sets (disregard cycles)
 # Find: Determine which subset a particular element is in
-# Union: Join two subsets into a single subset (share same edge).
+# Union: Join two subsets into a single subset (share same edge)
 # time: O(edges), space: O(vertices)
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
