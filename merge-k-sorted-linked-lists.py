@@ -1,4 +1,4 @@
-# Merge K Sorted Lists
+# Merge K Sorted Linked Lists
 # helper method to merge 2 sorted lists
 # divide and conquer merge k/2 each time
 # time: O(nlogk) N nodes, k linked lists, space: O(1)

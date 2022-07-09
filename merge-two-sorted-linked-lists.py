@@ -1,4 +1,4 @@
-# Merge Two Sorted Lists
+# Merge Two Sorted Linked Lists
 # time: O(n+m), space: O(n+m)
 
 # Definition for singly-linked list.
