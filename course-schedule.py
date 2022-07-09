@@ -1,8 +1,8 @@
 # Course Schedule
 # topological sort: linear ordering of vertices such that for every directed edge u->v, 
 # u comes before v in the ordering (possible iff is DAG, no directed cycles)
-# data structure tracks num of inbounds + out nodes 
-# create graph of courses, BFS -> remove outgoing edges 1 by 1
+# data structure tracks num of inbounds + out nodes, create graph of courses
+# BFS -> remove outgoing edges w/ 0 inbounds (no dependencies) 1 by 1
 # return True if no cycle (no edges remaining after top. sort)
 # time: O(E+V), space: O(E+V)
 class Solution:

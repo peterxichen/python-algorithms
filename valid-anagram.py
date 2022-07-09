@@ -1,6 +1,6 @@
 # Valid Anagram
 # two passes, hashmap tracks count of chars in str 1, decrement in str 2
-# time: O(n), space: O(1)
+# time: O(n), space: O(1) e.g. alphabet size
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         # sort then compare, time: O(nlogn)
