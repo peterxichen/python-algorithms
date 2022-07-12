@@ -1,6 +1,6 @@
 # Word Search
 # helper method for DFS in 4 directions, traverse each element in matrix and run DFS
-# time: O(N*3^L), space: O(L) from recur in stack
+# time: O(N*3^L) 3 since won't go back where came from, space: O(L) from recur in stack
 # where N is num cells, L is word len
 
 class Solution:
