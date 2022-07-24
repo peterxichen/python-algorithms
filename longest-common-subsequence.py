@@ -2,7 +2,7 @@
 # dp grid of text1 * text2, initialize all 0s, traverse in reverse,
 # dp[i][j] is longest common subsequence of text1[i:] and text2[j:],
 # if corresponding letters for a cell are same then +1, build dp to (0,0)
-# time: O(m*n), space: O(m*n)
+# time: O(len text1*len text2), space: O(len text1*len text2)
 
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
